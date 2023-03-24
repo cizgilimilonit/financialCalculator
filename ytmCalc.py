@@ -9,5 +9,3 @@ def annualYieldCalc(couponRate, faceValue, bondPrice, years, paymentsperyear):
     numerator = couponPayment + (faceValue - bondPrice) / totalPayments
     denominator = (faceValue + bondPrice) / 2
     return (numerator / denominator) * paymentsperyear
-
-print(annualYieldCalc(10, 1000, 957.84, 5, 2))
